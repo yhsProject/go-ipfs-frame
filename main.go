@@ -16,5 +16,6 @@ func main() {
 		fmt.Fprintf(os.Stderr, "error:%s", err)
 		os.Exit(1)
 	}
+	// Printf
 	fmt.Printf("added %s", cid)
 }
