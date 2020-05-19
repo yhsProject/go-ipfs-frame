@@ -12,6 +12,8 @@ https://github.com/ipfs/go-ipfs
   
 4.write the code  
 https://godoc.org/github.com/ipfs/go-ipfs-api  
+IPFSUpload  
+IPFSCat  
   
 5.use go mod  
 https://blog.golang.org/using-go-modules  
