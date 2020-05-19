@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	hash := IPFSUpload("Hello")
+	hash := IPFSUpload("hello")
 	fmt.Println(hash)
 	readData := IPFSCat(hash)
 	fmt.Println(readData)
