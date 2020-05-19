@@ -21,10 +21,10 @@ func main() {
 	}
 	// fmt.Println(hash)
 
-	// get
+	// Get
 	// sh.Get(hash, "hash.txt")
 
-	// cat
+	// Cat
 	readData, err := sh.Cat(hash)
 	if err != nil {
 		fmt.Println(err)
